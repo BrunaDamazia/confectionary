@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd,
+li {
+  margin: 0;
+}
+
+ul, li{
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title-sections {
+  text-align: center;
+  padding: 20px;
+  font-family: "Homemade Apple", cursive;
+  color: #575757;
+  font-size: 1.25rem;
+  position: relative;
+}

@@ -1,0 +1,31 @@
+/* .menu ul li h3 {
+  color: var(--cakesCupcakes-color);
+} */
+
+.menu ul li h3::before {
+  background: var(--cakesCupcakes-color);
+}
+
+.offer-menu {
+  background: var(--cakesCupcakes-color);
+}
+
+@media (min-width: 1200px) {
+    .list-image1 {
+      background: url(../../../images/cakesCupcakes/menu/Brownie.jpg) no-repeat;
+      width: 450px;
+      height: 450px;
+    }
+    .list-image2 {
+      background: url(../../../images/cakesCupcakes/menu/cakes.jpg) no-repeat;
+      width: 450px;
+      height: 450px;
+      order: 2;
+    }
+    .list-image3 {
+      background: url(../../../images/cakesCupcakes/menu/cupcakes.jpg) no-repeat;
+      width: 450px;
+      height: 450px;
+    }
+  }
+  

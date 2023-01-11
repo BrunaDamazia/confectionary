@@ -1,0 +1,14 @@
+/* global */
+@import url(./global/global.css);
+@import url(./global/header.css);
+@import url(./global/promotions.css);
+@import url(./global/footer.css);
+@import url(./global/menu.css);
+
+/* utilities */
+@import url(./utilities/colors/colors.css);
+
+/* page candy & cookies*/
+@import url(./pages/candyCookies/candyCookies.css);
+@import url(./pages/candyCookies/promotions.css);
+

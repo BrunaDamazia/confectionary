@@ -1,0 +1,36 @@
+header {
+  background: #ffffff;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* box-shadow: 35px 35px 64px #d4d4d4, -35px -35px 64px #ffffff; */
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  margin-right: 40px;
+  color: #0f0f0f;
+}
+
+.nav ul li a {
+  color: #0f0f0f;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.nav ul .nav-home a {
+  color: #62888d;
+  font-weight: bold;
+}

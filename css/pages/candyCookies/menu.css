@@ -1,0 +1,38 @@
+
+
+.menu ul li h3 {
+  /* font: 700 1.125rem/1.5 "Playfair Display", serif; */
+  /* color: #386a98; */
+  position: relative;
+}
+
+  /* border-bottom: 2px solid rgb(228, 228, 228); */
+  /* max-width: fit-content; */
+
+.menu ul li h3::before {
+  background: var(--candyCookies-color);
+}
+
+.offer-menu {
+  background: var(--candyCookies-color);
+}
+
+@media (min-width: 1200px) {
+  .list-image1 {
+    background: url(../../../images/candyCookies/menu/Donuts.jpg) no-repeat;
+    width: 450px;
+    height: 450px;
+  }
+  .list-image2 {
+    background: url(../../../images/candyCookies/menu/Macarons.jpg) no-repeat;
+    width: 450px;
+    height: 450px;
+    order: 2;
+  }
+
+  .list-image3 {
+    background: url(../../../images/candyCookies/menu/Cookies.jpg) no-repeat;
+    width: 450px;
+    height: 450px;
+  }
+}

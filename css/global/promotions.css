@@ -1,0 +1,44 @@
+.promotions {
+  background: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promotions-block {
+  background: #ebebeb;
+  margin: 20px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.promotions .item-1 {
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    background: #ebebeb;
+    box-shadow: 5px 5px 20px #e4e4e4, -5px -5px 20px #f2f2f2;
+}
+
+.promotions .item-1 .item-title {
+    color: var(--candyCookies-color);
+    margin: 20px 0px;
+}
+
+.promotions .item-1 .item-img {
+    background: url(../../images/candyCookies/promotions/tiramisu.jpg) no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.promotions .item-1 .price {
+    background: rgba(50, 81, 109, 0.40);
+    color: #000000;
+   justify-self: end;
+   padding: 4px 16px;
+   border-radius: 4px;
+   margin: 20px 0px;
+   font-family: "Playfair Display", serif;
+}

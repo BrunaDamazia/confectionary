@@ -1,0 +1,57 @@
+footer {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-bg {
+    background: var(--candyCookies-color);
+}
+
+.footer-bg::before {
+    content: '';
+    background: url(../../images/footer/footer.svg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    
+}
+
+/* .title-footer {
+    text-transform: uppercase;
+    text-align: center;
+} */
+
+/* .opening {
+    background-color: blue;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.opening-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.opening .days,
+.opening .hours {
+    font-size: 0.875rem;
+}
+
+.days {
+    text-transform: capitalize;
+    background-color: black;
+}
+
+.hours {
+    background-color: black;
+}
+
+.saturday-hour {
+    text-transform: uppercase;
+} */
