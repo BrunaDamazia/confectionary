@@ -1,44 +1,100 @@
-.promotions {
+.promotions-block {
+  background: #ebebeb;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.promotions-items {
   background: #ebebeb;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.promotions-block {
+.promotions .item {
+  padding: 20px;
+  text-align: center;
   background: #ebebeb;
-  margin: 20px;
-  max-width: 400px;
-  max-height: 400px;
+  display: inline-block;
+  border: 1px solid rgba(56, 106, 152, 0.4);
+  border-radius: 10px;
 }
 
-.promotions .item-1 {
-    border-top: 1px solid #eeeeee;
-    text-align: center;
-    display: grid;
-    justify-content: center;
-    background: #ebebeb;
+.promotions .item .item-title {
+  color: var(--candyCookies-color);
+  font: 700 1.125rem/1.5 "Playfair Display", serif;
+  letter-spacing: 0.05em;
+}
+
+.promotions-span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.price-promotion {
+  color: #000000;
+  justify-self: end;
+  font-family: "Playfair Display", serif;
+}
+
+.carrinho {
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 2px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.promotions .item-2,
+.promotions .item-3,
+.promotions .item-4 {
+  display: none;
+  visibility: hidden;
+}
+
+@media (min-width: 800px) {
+  .promotions .item-2,
+  .promotions .item-3,
+  .promotions .item-4 {
+    display: inline-block;
+    visibility: visible;
+  }
+
+  .promotions-block {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 20px #e4e4e4, -5px -5px 20px #f2f2f2;
+  }
+
+  .promotions-items {
+    background: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promotions .item {
+    box-shadow: none;
+    margin-right: 40px;
+  }
 }
 
-.promotions .item-1 .item-title {
-    color: var(--candyCookies-color);
-    margin: 20px 0px;
-}
+@media (min-width: 1200px) {
+  .promotions-block {
+    margin: 30px;
+    padding: 20px;
+  }
 
-.promotions .item-1 .item-img {
-    background: url(../../images/candyCookies/promotions/tiramisu.jpg) no-repeat;
-    background-size: cover;
-    width: 150px;
-    height: 150px;
-}
-
-.promotions .item-1 .price {
-    background: rgba(50, 81, 109, 0.40);
-    color: #000000;
-   justify-self: end;
-   padding: 4px 16px;
-   border-radius: 4px;
-   margin: 20px 0px;
-   font-family: "Playfair Display", serif;
+  .promotions .item {
+    margin-right: 0px;
+  }
 }

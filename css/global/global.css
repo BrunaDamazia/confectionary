@@ -27,7 +27,6 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -37,5 +36,4 @@ img {
   font-family: "Homemade Apple", cursive;
   color: #575757;
   font-size: 1.25rem;
-  position: relative;
 }

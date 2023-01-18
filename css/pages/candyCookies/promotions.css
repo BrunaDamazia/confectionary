@@ -1,0 +1,37 @@
+.promotions .item-1 .item-img {
+  background: url(../../../images/candyCookies/promotions/tiramisu.jpg)
+    no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.carrinho {
+    background: var(--candyCookies-color);
+}
+
+@media (min-width: 800px) {
+  .promotions .item-2 .item-img {
+    background: url(../../../images/candyCookies/promotions/pudding.jpg)
+      no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+
+  .promotions .item-3 .item-img {
+    background: url(../../../images/candyCookies/promotions/churros.jpg)
+      no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+
+  .promotions .item-4 .item-img {
+    background: url(../../../images/candyCookies/promotions/tiramisu.jpg)
+      no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+}

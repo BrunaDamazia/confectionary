@@ -34,3 +34,9 @@ header {
   color: #62888d;
   font-weight: bold;
 }
+
+
+.dropdown-menu {
+  visibility: hidden;
+  display: none;
+}
