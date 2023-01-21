@@ -6,8 +6,12 @@
   height: 150px;
 }
 
+.item-img {
+  border-radius: 10px;
+}
+
 .carrinho {
-    background: var(--candyCookies-color);
+  background: var(--candyCookies-color);
 }
 
 @media (min-width: 800px) {
@@ -17,6 +21,7 @@
     background-size: cover;
     width: 150px;
     height: 150px;
+    
   }
 
   .promotions .item-3 .item-img {
@@ -33,5 +38,17 @@
     background-size: cover;
     width: 150px;
     height: 150px;
+    
   }
+}
+
+@media (min-width: 1200px) {
+  .promotions .item-5 .item-img {
+    background: url(../../../images/candyCookies/promotions/tiramisu.jpg)
+      no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+  }
+  
 }

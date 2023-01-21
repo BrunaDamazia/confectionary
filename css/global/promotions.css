@@ -1,7 +1,8 @@
 .promotions-block {
   background: #ebebeb;
   display: grid;
-  justify-content: center;
+
+  justify-items: center;
   align-items: center;
   margin: 20px;
   padding: 20px;
@@ -9,18 +10,18 @@
 }
 
 .promotions-items {
-  background: #ebebeb;
+  width: fit-content;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
+/* problema nas imagens, bordas!!!!!!!! */
 .promotions .item {
   padding: 20px;
   text-align: center;
   background: #ebebeb;
   display: inline-block;
-  border: 1px solid rgba(56, 106, 152, 0.4);
+  border: 1px solid rgba(56, 106, 152, 0.1);
   border-radius: 10px;
 }
 
@@ -39,7 +40,6 @@
 
 .price-promotion {
   color: #000000;
-  justify-self: end;
   font-family: "Playfair Display", serif;
 }
 
@@ -55,15 +55,16 @@
 
 .promotions .item-2,
 .promotions .item-3,
-.promotions .item-4 {
+.promotions .item-4,
+.promotions .item-5,
+.promotions .item-6 {
   display: none;
   visibility: hidden;
 }
 
 @media (min-width: 800px) {
   .promotions .item-2,
-  .promotions .item-3,
-  .promotions .item-4 {
+  .promotions .item-3 {
     display: inline-block;
     visibility: visible;
   }
@@ -77,24 +78,31 @@
 
   .promotions-items {
     background: #ebebeb;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
 
   .promotions .item {
     box-shadow: none;
-    margin-right: 40px;
+    margin-right: 30px;
   }
 }
 
 @media (min-width: 1200px) {
   .promotions-block {
-    margin: 30px;
+    margin: 40px;
     padding: 20px;
   }
 
   .promotions .item {
-    margin-right: 0px;
+    margin-right: 40px;
+  }
+
+  .promotions .item-4,
+  .promotions .item-5,
+  .promotions .item-6 {
+    display: inline-block;
+    visibility: visible;
   }
 }
