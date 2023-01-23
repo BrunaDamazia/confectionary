@@ -26,7 +26,6 @@
 }
 
 .promotions .item .item-title {
-  color: var(--candyCookies-color);
   font: 700 1.125rem/1.5 "Playfair Display", serif;
   letter-spacing: 0.05em;
 }

@@ -31,10 +31,9 @@ header {
 }
 
 .nav ul .nav-home a {
-  color: #62888d;
+  color: var(--candyCookies-color);
   font-weight: bold;
 }
-
 
 .dropdown-menu {
   visibility: hidden;

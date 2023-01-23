@@ -6,6 +6,10 @@
   height: 150px;
 }
 
+.promotions .item .item-title {
+  color: rgb(36, 36, 36);
+}
+
 .item-img {
   border-radius: 10px;
 }
@@ -21,7 +25,7 @@
     background-size: cover;
     width: 150px;
     height: 150px;
-    
+    background-position: center;
   }
 
   .promotions .item-3 .item-img {
@@ -30,15 +34,16 @@
     background-size: cover;
     width: 150px;
     height: 150px;
+    background-position: center;
   }
 
   .promotions .item-4 .item-img {
-    background: url(../../../images/candyCookies/promotions/tiramisu.jpg)
+    background: url(../../../images/candyCookies/promotions/cookies.jpg)
       no-repeat;
     background-size: cover;
     width: 150px;
     height: 150px;
-    
+    background-position: bottom;
   }
 }
 
