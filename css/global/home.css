@@ -1,15 +1,20 @@
 .title-div {
-  background: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 0.5);
-    font-family: "Playfair Display", serif;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    max-width: 300px;
-    height: auto;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  background: rgba(
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    rgb(255, 255, 255),
+    0.5
+  );
+  font-family: "Playfair Display", serif;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-width: 300px;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .title {
   font-weight: 700;
@@ -19,6 +24,33 @@
 
 .title-2 {
   justify-self: end;
+  grid-row: 2;
+  position: absolute;
+  right: 45px;
 }
 
+.title-span {
+  grid-row: 2;
+  position: absolute;
+  left: 85px;
+  top: -20px;
+}
 
+@media (min-width: 1000px) {
+  .title-div {
+    /* background-color: aquamarine; */
+    max-width: 450px;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .title-2 {
+    right: 20px;
+  }
+
+  .title-span {
+    left: 135px;
+  }
+}
